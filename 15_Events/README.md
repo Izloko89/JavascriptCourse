@@ -61,7 +61,7 @@ onmouseout | The user moves the mouse away from an HTML element
 onkeydown | The user pushes a keyboard key
 onload | The browser has finished loading the page
 
-The list is much longer: ![W3Schools JavaScript Reference HTML DOM Events](http://www.w3schools.com/jsref/dom_obj_event.asp).
+The list is much longer: [W3Schools JavaScript Reference HTML DOM Events](http://www.w3schools.com/jsref/dom_obj_event.asp).
 _____________________________________________________________________________________________________________________________
 
 ##What can JavaScript Do?
