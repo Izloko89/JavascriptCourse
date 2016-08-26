@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scope</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h1>Web Page</h1>
+
+	<table>
+		<tr>
+			<!-- Local Variables -->
+			<td>
+				<p>The local variable carName cannot be accessed from code outside the function:</p>
+				<p id="demo1"></p>
+				<!-- Element -->
+			</td>
+
+			<!-- Global Variables -->
+			<td>
+				<p>A GLOBAL variable can be accessed from any script or function.</p>
+				<p id="demo2"></p>
+				<!-- Element -->
+			</td>
+		</tr>
+
+		<tr>
+			<!-- Automatically Global -->
+			<td>
+				<p>If you assign a value to a variable that has not been declared, it will automatically become a GLOBAL variable:</p>
+				<p id="demo3"></p>
+				<!-- Element -->
+			</td>
+
+			<!-- Global Variables in HTML -->
+			<td>
+				<p>In HTML, all global variables will become window variables.</p>
+				<p id="demo4"></p>
+				<!-- Element -->
+			</td>
+		</tr>
+	</table>
+	
+	<script src="js/custom.js"></script>
+</body>
+</html>
